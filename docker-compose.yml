@@ -1,0 +1,28 @@
+version: '3'
+services:
+
+  dataservice:
+    build: ./dataservice
+    volumes:
+      - "dataservicedb:/tmp/"
+    ports:
+     - "5001:5000"
+    networks:
+      main:
+        aliases:
+          - dataservice
+
+  frontend:
+    build: ./frontend
+    ports:
+     - "5000:5000"
+    networks:
+      main:
+        aliases:
+          - frontend
+
+volumes:
+  dataservicedb:
+
+networks:
+  main:
