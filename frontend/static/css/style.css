@@ -1,0 +1,46 @@
+.description {
+  font-size: 20px;
+}
+
+#displayValue {
+  font-size: 18px;
+}
+
+#title-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+strong {
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+}
+
+p {
+  font-size: 24px;
+}
+
+#personal-info {
+  text-align: center;
+}
+
+#personal-picture {
+  width: 50px;
+  height: 50px;
+}
+
+.marker-pharmacy {
+  font-size: 16px;
+  color: black;
+}
+
+.img-uploaded-raw
+{
+   width: 50%;
+   height: 50%;
+}

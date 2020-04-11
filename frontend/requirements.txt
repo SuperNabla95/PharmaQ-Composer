@@ -1,0 +1,6 @@
+flask
+flask-googlemaps
+flask-sqlalchemy
+opencv-contrib-python
+requests
+
