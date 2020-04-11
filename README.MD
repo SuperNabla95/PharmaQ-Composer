@@ -1,35 +1,16 @@
 # We Against Virus - TJ, DG, FT
 
-Pharmacy queues prototype:
+Pharmacy :pill: queues prototype:
 A simple portal where the local people can visualize the number of customers in the waiting line at a pharmacy
 
+# Requirements: :scroll:
 
-# Requirements:
+`docker`, as well as `docker-compose`
 
-Python3.6+ (Python3.7 works as well)
-
-# Installation:
-Install the requirements:
+# Running: :running:
+Run the following command:
 ```bash
-pip install -r requirements.txt
+sudo docker-compose up
 ```
-
-The database has to be moved into the `tmp` folder:
-```bash
-cp db_backend/test.db /tmp/test.db
-```
-
-
-# Running:
-
-## 1. Run the DB application
-```bash
-cd db_backend
-flask run --port 5001
-```
-
-## 2. Run the Google Map application
-```bash
-cd map_frontend
-flask run --port 5000
-```
+and everything will magically work! :sparkling_heart:
+Docker is a fun!
